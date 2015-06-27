@@ -1,0 +1,123 @@
+html {
+  font-family: "Open Sans",sans-serif;
+}
+
+body {
+  margin: 0;
+  background: transparent url("../img/wp1.jpg");
+}
+
+button{
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-size:16px;
+}
+
+button.menu-item:hover{
+    background-color: #B3B9BF;
+}
+
+header {
+  height: 60px;
+  background: none repeat scroll 0% 0% #2E3639;
+  margin: 0px;
+  padding: 0px;
+  border: medium none;
+  outline: 0px none;
+  font-size: 100%;
+  vertical-align: baseline;
+  color: #000;
+  line-height: 16px;
+}
+
+.logo {
+  text-align: center;
+  /*background-color:#fff;*/
+  color:#fff
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.logo p {
+  margin: 0 auto;
+  max-width: 30rem;
+  background: rgba(225,255,255,0.8);
+  border: 2px solid rgba(255,255,255,0.2);
+  padding: 0 1rem 0 1.8rem;
+  display: table;
+  color:#000;
+}
+
+#header-menu-items {
+  margin-left: 95px;
+}
+
+#header-menu-items a:hover {
+    background-color: #B3B9BF;
+}
+
+.menu-item {
+  display: inline-block;
+  height: 60px;
+  padding-right: 10px;
+  float: left;
+  color: #fff;
+  position: relative;
+  z-index: auto;
+  text-decoration: none;
+}
+
+.button {
+  vertical-align: middle;
+  text-decoration: none;
+  position: relative;
+  z-index: auto;
+  cursor: pointer;
+  top: 18px;
+  padding: 3px 10px 5px;
+}
+
+
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 2rem auto;
+  width: 3rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 53rem;
+  width: 90%;
+}
+
+section {
+  /*border-top: 1px solid #eee;*/
+  text-align: center;
+}
+section:first-of-type {
+  border-top: none;
+}
+
+.column {
+  width: 29%;
+  float: left;
+  margin: 0px;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.row {
+  background: rgba(225,255,255,0.1);
+  border: 2px solid rgba(255,255,255,0.2);
+  padding: 1rem 1rem 0 1.8rem;
+  margin-bottom: 1rem;
+  display: table;
+}
